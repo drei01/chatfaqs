@@ -1,0 +1,16 @@
+{
+    "name": "chat-faqs-website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tailwindcss build assets/css/tailwind.css -o assets/css/styles.css"
+    },
+    "author": "drei01",
+    "license": "ISC",
+    "dependencies": {
+        "@tailwindcss/typography": "^0.5.10",
+        "tailwindcss": "^3.4.1"
+    }
+}
