@@ -1285,6 +1285,10 @@ video {
   flex: 1 1 0%;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -2234,8 +2238,8 @@ video {
     line-height: 1;
   }
 
-  .lg\:leading-\[60px\] {
-    line-height: 60px;
+  .lg\:leading-\[75px\] {
+    line-height: 75px;
   }
 }
 
